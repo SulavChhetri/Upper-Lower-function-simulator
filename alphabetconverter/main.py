@@ -33,3 +33,12 @@ class Converter:
                 else:
                     output.append(item)
             return ''.join(output)
+
+    def smiley_function(self):
+        if not Converter.string_checker(self):
+            return "Should contain at least one alphabet character"
+        else:
+            return self.strings+' Smiley Added!!'
+    
+    def natural_return(self):
+        return self.strings

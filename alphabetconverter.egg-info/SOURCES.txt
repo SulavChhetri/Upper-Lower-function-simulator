@@ -3,4 +3,5 @@ alphabetconverter/main.py
 alphabetconverter.egg-info/PKG-INFO
 alphabetconverter.egg-info/SOURCES.txt
 alphabetconverter.egg-info/dependency_links.txt
+alphabetconverter.egg-info/requires.txt
 alphabetconverter.egg-info/top_level.txt
