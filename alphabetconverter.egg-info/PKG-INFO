@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: alphabetconverter
+Version: 1.0.0
+Summary: This is a .upper() and .lower() simulator
+Author: Sulav
+
+This package simulates the upper() and lower() function of the python interpreter.
