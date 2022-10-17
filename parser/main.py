@@ -6,7 +6,7 @@ def main():
         lines = [line.rstrip('\n') for line in file]
         lines = lines[5:]
     for item in lines:
-        x = item.split()
+        x = item.split("    ")
         if len(x)==3:
             filedict = {
                 'State' :x[0],
