@@ -39,3 +39,13 @@ def test_to_lowercase(input_data):
 
     #Fail Case
     assert fail_converter_to_anycase.to_lower_case() == "Should contain at least one alphabet character"
+
+def test_smiley_function(input_data):
+    pass_converter = Converter(input_data[0])
+    fail_converter = Converter(input_data[2])
+
+    #Pass Case :
+    assert pass_converter.smiley_function() ==input_data[0]+' Smiley Added!!'
+
+    #Fail Case:
+    assert fail_converter.smiley_function() == "Should contain at least one alphabet character"
